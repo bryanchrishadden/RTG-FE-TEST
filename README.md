@@ -6,19 +6,6 @@ Bryan Hadden | Rooms To Go Engineering: React Take Home Assignment
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-```script
-$ git clone https://github.com/ORG/RTG-FE-TEST.git
-$
-
-$ cd RTG-FE-TEST
-RTG-FE-TEST/
-
-$ npm install
-RTG-FE-TEST/
-```
-
 ## Requirements
 
 For development, you will only need Node.js installed on your environement.
@@ -49,7 +36,7 @@ Please install [Homebrew](http://brew.sh/) if it's not already done with the fol
     $ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
-If everything when fine, you should run
+If everything is fine, you should run
 
 ```shell
     brew install node
@@ -76,14 +63,6 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
     cd RTG-FE-TEST
     npm install
 ```
-
-### Configure app
-
-Copy `config.sample.json` to `config.json` then edit it with the url where you have setup:
-
-- backend api
-- oauth like endpoint for auth
-- development
 
 ## Start & watch
 
@@ -141,9 +120,7 @@ Then it will try a production build.
 
 - [Gatsby](http://jade-lang.com/) for some static content generation/templating.
 
-### JavaScript
-
-### no installed but would reccomend
+### JavaScript (not installed but would recommend)
 
 - [JSHint](http://www.jshint.com/docs/) is used to prevent JavaScript error.
 - [JSCS](https://npmjs.org/package/jscs) is used to check coding conventions.
